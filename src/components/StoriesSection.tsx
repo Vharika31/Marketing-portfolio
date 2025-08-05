@@ -18,7 +18,7 @@ const StoriesSection = () => {
     {
       category: "Community Building",
       title: "Growing LinkedIn Network to 3K+",
-      description: "Building a genuine network of 3,000+ followers on LinkedIn wasn't just about numbers—it was about creating meaningful connections, sharing valuable content, and establishing myself as a thought leader in the product marketing and community building space.",
+      description: "Building a genuine network of 3,000+ followers on LinkedIn wasn't just about numbers, it was about creating meaningful connections, sharing valuable content, and establishing myself as a thought leader in the product marketing and community building space.",
       
       testimonial: "Harika's content on LinkedIn is always on-point, always focussed on reaching out for those who are learning. She's built an amazing community around herself not only for her growth but for the well-being of her juniors.",
       author: "LinkedIn Connection",
