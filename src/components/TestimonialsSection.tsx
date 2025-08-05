@@ -17,7 +17,7 @@ const TestimonialsSection = () => {
     {
       image: "/lovable-uploads/5f02728b-f32f-42a3-b768-256553952637 (4).png",
       quote: "Harika is the calm in every storm.",
-      fullText: "Working with Harika on national-level hackathons was an incredible experience. She managed 600+ participants while she made each one feel seen, supported, and excited to be part of something bigger. Her organizational skills are honestly unmatched. From coordinating mentor sessions to handling last-minute glitches, she stayed calm, collected, and always a step ahead.What stood out most was how approachable she remained throughout the chaos. Participants constantly praised how smooth everything felt, and that was all thanks to her behind-the-scenes efforts. She has this amazing ability to balance professionalism with warmth, which made the whole team feel more like a family. If there’s anyone I’d want leading a high-stakes, high-energy event again it’s Harika, hands down.",
+      fullText: "Working with Harika on national-level hackathons was an incredible experience. She managed 600+ participants while she made each one feel seen, supported, and excited to be part of something bigger. Her organizational skills are honestly unmatched. From coordinating mentor sessions to handling last-minute glitches, she stayed calm, collected, and always a step ahead. Participants constantly praised how smooth everything felt, and that was all thanks to her behind-the-scenes efforts. If there’s anyone I’d want leading a high-stakes, high-energy event again it’s Harika, hands down.",
       author: "N Geeth Sowri",
       position: "CP LEAD @ CODECHEF",
       expandedText: true
@@ -25,7 +25,7 @@ const TestimonialsSection = () => {
     {
       image: "/lovable-uploads/5f02728b-f32f-42a3-b768-256553952637 (5).png",
       quote: "An outstanding community builder with remarkable vision.",
-      fullText: "Harika is the kind of student every mentor values deeply. She builds Communities with a shared purpose. Whether it’s organizing a campus initiative or volunteering at sustainability events, Harika consistently shows a rare blend of empathy, precision, and foresight. Her remarkable attention to detail ensures that every voice is heard, every corner is covered, and every participant feels a sense of belonging. What truly sets her apart is her ability to bring people together across teams, backgrounds, and challenges. She leads with warmth, listens with intent, and acts with clarity. It’s no surprise that her peers look up to her not just as an organizer, but as someone who genuinely uplifts the community around her.",
+      fullText: "Harika is the kind of student every mentor values deeply. She builds Communities with a shared purpose. Be it a campus initiative or volunteering at sustainability events, Harika consistently shows a rare blend of precision and foresight. Her remarkable attention to detail ensures that every idea is heard, every corner is covered, and every participant feels a sense of belonging. She leads with authenticity, listens with intent, and acts with clarity. It’s no surprise that her peers look up to her not just as an organizer, but as someone who genuinely uplifts the community around her.",
       author: "Deepa Kodali",
       position: "Director @ CTFS",
       expandedText: true
