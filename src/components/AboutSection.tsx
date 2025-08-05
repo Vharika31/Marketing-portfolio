@@ -33,8 +33,8 @@ const AboutSection = () => {
             <div className="relative w-80 h-80 mx-auto">
               <div className="absolute inset-0 bg-gradient-to-r from-primary to-accent rounded-full opacity-20 animate-pulse-glow"></div>
               <div className="relative w-full h-full rounded-full overflow-hidden border-4 border-background shadow-2xl">
-                <img 
-                  src="public/lovable-uploads/DSC_8896.JPG"
+                <img src="public/profile.png"
+                  
                   alt="Harika Vavilapalli" 
                   className="w-full h-full object-cover"
                 />
