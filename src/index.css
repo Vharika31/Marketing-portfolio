@@ -1,0 +1,256 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Portfolio Design System - Modern, Professional, Elegant */
+
+@layer base {
+  :root {
+    /* Base Colors */
+    --background: 45 35% 96%;
+    --foreground: 195 25% 15%;
+
+    /* Card System */
+    --card: 45 35% 98%;
+    --card-foreground: 195 25% 15%;
+
+    /* Popover System */
+    --popover: 45 35% 98%;
+    --popover-foreground: 195 25% 15%;
+
+    /* Primary Brand Colors - Sage Green to Teal */
+    --primary: 160 30% 50%;
+    --primary-foreground: 0 0% 100%;
+    --primary-dark: 185 35% 35%;
+    --primary-light: 140 25% 65%;
+
+    /* Secondary Colors - Warm Beige */
+    --secondary: 40 30% 90%;
+    --secondary-foreground: 195 25% 15%;
+
+    /* Accent Colors - Deep Teal */
+    --accent: 185 35% 40%;
+    --accent-foreground: 0 0% 100%;
+
+    /* Muted Colors - Cream Tones */
+    --muted: 45 25% 92%;
+    --muted-foreground: 160 15% 45%;
+
+    /* Utility Colors */
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 40 20% 85%;
+    --input: 40 20% 90%;
+    --ring: 160 30% 50%;
+
+    /* Design Tokens */
+    --radius: 1rem;
+
+    /* Gradients - Earthy Palette */
+    --gradient-primary: linear-gradient(135deg, hsl(160 30% 50%), hsl(185 35% 45%));
+    --gradient-hero: linear-gradient(135deg, hsl(160 30% 50% / 0.1), hsl(185 35% 45% / 0.1));
+    --gradient-card: linear-gradient(135deg, hsl(45 35% 98%), hsl(160 30% 96%));
+
+    /* Shadows - Earthy Theme */
+    --shadow-elegant: 0 4px 20px hsl(160 30% 50% / 0.1);
+    --shadow-hover: 0 8px 40px hsl(160 30% 50% / 0.15);
+    --shadow-glow: 0 0 40px hsl(160 30% 50% / 0.2);
+
+    /* Animations */
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-bounce: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+
+    --sidebar-background: 0 0% 98%;
+
+    --sidebar-foreground: 240 5.3% 26.1%;
+
+    --sidebar-primary: 240 5.9% 10%;
+
+    --sidebar-primary-foreground: 0 0% 98%;
+
+    --sidebar-accent: 240 4.8% 95.9%;
+
+    --sidebar-accent-foreground: 240 5.9% 10%;
+
+    --sidebar-border: 220 13% 91%;
+
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  .dark {
+    --background: 195 25% 8%;
+    --foreground: 45 25% 90%;
+
+    --card: 195 25% 10%;
+    --card-foreground: 45 25% 90%;
+
+    --popover: 195 25% 8%;
+    --popover-foreground: 45 25% 90%;
+
+    --primary: 160 30% 55%;
+    --primary-foreground: 195 25% 8%;
+
+    --secondary: 185 20% 15%;
+    --secondary-foreground: 45 25% 90%;
+
+    --muted: 185 20% 15%;
+    --muted-foreground: 160 15% 65%;
+
+    --accent: 185 35% 40%;
+    --accent-foreground: 45 25% 90%;
+
+    --destructive: 0 63% 31%;
+    --destructive-foreground: 45 25% 90%;
+
+    --border: 185 20% 20%;
+    --input: 185 20% 20%;
+    --ring: 160 30% 55%;
+    --sidebar-background: 195 25% 10%;
+    --sidebar-foreground: 45 25% 90%;
+    --sidebar-primary: 160 30% 55%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 185 15% 18%;
+    --sidebar-accent-foreground: 45 25% 90%;
+    --sidebar-border: 185 15% 18%;
+    --sidebar-ring: 160 30% 55%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-inter scroll-smooth;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+/* Custom Components */
+@layer components {
+  /* Hero Section */
+  .hero-gradient {
+    background: var(--gradient-hero);
+  }
+
+  .floating-animation {
+    animation: float 6s ease-in-out infinite;
+  }
+
+  .floating-animation:nth-child(2) {
+    animation-delay: -2s;
+  }
+
+  .floating-animation:nth-child(3) {
+    animation-delay: -4s;
+  }
+
+  /* Cards */
+  .card-elegant {
+    background: var(--gradient-card);
+    box-shadow: var(--shadow-elegant);
+    transition: var(--transition-smooth);
+  }
+
+  .card-elegant:hover {
+    box-shadow: var(--shadow-hover);
+    transform: translateY(-8px);
+  }
+
+  /* Buttons */
+  .btn-primary {
+    background: var(--gradient-primary);
+    transition: var(--transition-bounce);
+  }
+
+  .btn-primary:hover {
+    box-shadow: var(--shadow-glow);
+    transform: translateY(-2px);
+  }
+
+  /* Animated Text */
+  .text-gradient {
+    background: var(--gradient-primary);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  /* Section Spacing */
+  .section-padding {
+    @apply py-20 lg:py-32;
+  }
+
+  /* Smooth Transitions */
+  .transition-elegant {
+    transition: var(--transition-smooth);
+  }
+
+  /* Animated Underlines */
+  .animated-underline {
+    position: relative;
+  }
+
+  .animated-underline::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: -4px;
+    left: 0;
+    background: var(--gradient-primary);
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 0.3s ease;
+  }
+
+  .animated-underline:hover::after {
+    transform: scaleX(1);
+    transform-origin: left;
+  }
+}
+
+/* Animations */
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes pulse {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}
