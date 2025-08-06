@@ -1,4 +1,4 @@
-import { ExternalLink, Calendar, Users, Award } from 'lucide-react';
+import { Award, Calendar, ExternalLink, Users } from 'lucide-react';
 
 const WorkSection = () => {
   const workExperiences = [
