@@ -6,7 +6,7 @@ const AchievementsSection = () => {
       year: "2025",
       title: "2nd Prize - IWD'25 Hackathon",
       organization: "International Women's day",
-      description: "Product Manager, AgriConnect – Championed a user-first approach to build an AI-powered platform that empowers farmers with accessible insights, climate solutions, and modern agricultural tools tailored to their real needs.",
+      description: "Product Manager, AgriConnect – Conducted in-depth market and user research to uncover unmet needs in the agricultural sector. Defined positioning and crafted compelling messaging for an AI-powered platform delivering climate-resilient insights and modern farming tools. Led go-to-market strategy, driving adoption by aligning product value with farmer pain points and tailoring communication for maximum impact.",
       icon: Award,
       type: "major"
     },
@@ -14,7 +14,7 @@ const AchievementsSection = () => {
       year: "2024",
       title: "1st Prize - GenAI Hackathon",
       organization: "HackerRank",
-      description: "Top 10 Finalist in a competitive GenAI Hackathon. Showcased impactful and user-centric AI solutions with real-world applicability.",
+      description: "Recognized among Top 10 teams in a GenAI Hackathon for delivering a customer focused AI solution. Applied core product management skills, user research, competitive analysis, MVP scoping, and stakeholder alignment to build and pitch a high impact product.",
       icon: Star,
       type: "AI"
     },
@@ -30,7 +30,7 @@ const AchievementsSection = () => {
       year: "2023",
       title: "App Design Contest Winner",
       organization: "National Tech Fest",
-      description: "Secured 1st position out of 250+ senior designers in national-level tech fest, recognized for outstanding UI/UX design and a strong user-first mindset.",
+      description: "Secured 1st place out of 250+ senior designers at a national-level tech fest for delivering a standout UI/UX design that blended intuitive user experience with strong brand identity. Recognized for a deeply user-centric approach, visual storytelling, and design decisions rooted in usability, accessibility, and emotional resonance.",
       icon: Target,
       type: "design"
     },
@@ -38,7 +38,7 @@ const AchievementsSection = () => {
       year: "2023",
       title: "National Ideathon Winner & Recognized Tech Speaker",
       
-      description: "Received recognition for outstanding public speaking skills at numerous technical events and conferences.",
+      description: "Recognized for exceptional public speaking and storytelling at multiple technical events and conferences. Demonstrated the ability to distill complex ideas into clear, compelling narratives, influence diverse audiences, and communicate product value with confidence and clarity.",
       icon: Calendar,
       type: "speaking"
     },
@@ -46,7 +46,7 @@ const AchievementsSection = () => {
       year: "2023",
       title: "Community Leadership Award",
       organization: "GeeksforGeeks",
-      description: "Recognized for exceptional leadership in building and managing the tech community in Vizag region.",
+      description: "Demonstrated exceptional leadership in establishing and growing a thriving tech ecosystem in Vizag. Spearheaded community initiatives, cultivated partnerships, and inspired participation across diverse student and professional groups.",
       icon: Award,
       type: "leadership"
     }

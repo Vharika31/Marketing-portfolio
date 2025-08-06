@@ -46,7 +46,7 @@ const WorkSection = () => {
       title: "Event & Community Organizer",
       subtitle: "Media cell Vizag",
       period: "2024 - 2025",
-      description: "Managed event photography and brand visibility, driving engagement and campus identity as a Media Cell member.",
+      description: "As a core member of the campus Media Cell, I led event photography and visual content strategy to enhance brand visibility and drive student engagement. I developed a consistent visual language that aligned with the institution’s identity, capturing key moments across technical, cultural, and outreach events. My efforts not only elevated the aesthetic quality of promotional materials but also contributed to higher event participation and stronger brand recall across campus. Through visual storytelling and strategic content planning, I helped build a recognizable and engaging campus presence both online and offline.",
       highlights: ["Media Manager", "Content adminstrator", "Brand Marketing"],
       type: "community"
     }
