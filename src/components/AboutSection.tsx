@@ -33,7 +33,7 @@ const AboutSection = () => {
             <div className="relative w-80 h-80 mx-auto">
               <div className="absolute inset-0 bg-gradient-to-r from-primary to-accent rounded-full opacity-20 animate-pulse-glow"></div>
               <div className="relative w-full h-full rounded-full overflow-hidden border-4 border-background shadow-2xl">
-                <img src="public/profile.png"
+                <img src="profile.png"
                   
                   alt="Harika Vavilapalli" 
                   className="w-full h-full object-cover"
@@ -81,25 +81,8 @@ of product, people, and purpose. Whether launching tools, hosting hackathons, or
           </div>
         </div>
 
-        {/* Remarkable Section */}
-        <div className="mt-20">
-          <h3 className="text-3xl md:text-4xl font-bold font-poppins text-center mb-12">
-            I'm <span className="text-gradient">Remarkable</span> Because...
-          </h3>
-          
-          <div className="grid md:grid-cols-2 gap-6">
-            {remarkablePoints.map((point, index) => (
-              <div 
-                key={index}
-                className="card-elegant p-6 rounded-2xl flex items-start gap-4 animate-fade-in-up"
-                style={{ animationDelay: `${index * 0.1}s` }}
-              >
-                <CheckCircle className="w-6 h-6 text-primary flex-shrink-0 mt-1" />
-                <p className="text-muted-foreground leading-relaxed">{point}</p>
-              </div>
-            ))}
-          </div>
-        </div>
+        
+        
       </div>
     </section>
   );
