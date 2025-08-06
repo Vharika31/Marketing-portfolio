@@ -11,8 +11,8 @@ const WorkSection = () => {
       type: "leadership"
     },
     {
-      title: "GFG Campus Body Head'25",
-      subtitle: "GeeksforGeeks Vizag",
+      title: "Product Marketing Ambassodor",
+      subtitle: "GeeksforGeeks Community Vizag",
       period: "2025 - Present",
       description: "Managed and led key chapter activities by organizing 12+ events, reaching out to 10+ industry speakers, and creating content that connected with over 1500 students. Hosted coding contests, workshops, and fun engagement sessions that helped nurture a strong problem-solving culture in the community",
       highlights: ["Community Building", "Event Organization", "Technical Leadership"],
@@ -27,7 +27,7 @@ const WorkSection = () => {
       type: "ambassador"
     },
     {
-      title: "Hackathon Student Coordinator",
+      title: "Hackathon Project Manager",
       subtitle: "National Level 24-hours hackathons",
       period: "2022 - 2024",
       description: "Served as the main coordinator for two national-level 24-hour hackathons, managing 600+ participants from across India and coordinating with 7 virtual judges from top U.S based tech companies. Oversaw end-to-end planning, logistics, and seamless execution delivering high-impact events.",
