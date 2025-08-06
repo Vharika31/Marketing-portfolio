@@ -39,7 +39,7 @@ const HeroSection = () => {
 
           <div className="flex flex-col sm:flex-row gap-6 justify-center items-center mb-16">
            <a
-  href="https://drive.google.com/file/d/1uGhqWy0CXw_WY3kc2Q8LB0bog6RmvpN2/view?usp=sharing" // Replace with your actual resume path or external link
+  href="https://drive.google.com/file/d/1zUUCqqmPqrxfNn3NmccgVknN8ifeEaQS/view?usp=sharing" 
   target="_blank"
   rel="noopener noreferrer"
   className="btn-primary px-8 py-4 text-lg font-semibold rounded-full inline-flex items-center"
