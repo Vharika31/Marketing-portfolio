@@ -18,8 +18,8 @@ const SkillsSection = () => {
     },
     {
       icon: Users,
-      title: "Public Speaking",
-      description: "Confident presentation skills and audience engagement"
+      title: "Stakeholder Management",
+      description: "Ability to identify, understand, and manage the needs, expectations, and relationships of diverse stakeholders to ensure alignment and successful project outcomes."
     },
     {
       icon: Calendar,
