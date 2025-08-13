@@ -19,7 +19,7 @@ const SkillsSection = () => {
     {
       icon: Users,
       title: "Stakeholder Management",
-      description: "Ability to identify, understand, and manage the needs, expectations, and relationships of diverse stakeholders to ensure alignment and successful project outcomes."
+      description: "Building strong relationships with stakeholders by understanding their needs and aligning expectations for successful outcomes."
     },
     {
       icon: Calendar,
