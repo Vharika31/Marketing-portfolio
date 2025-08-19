@@ -3,7 +3,7 @@ import { Award, Calendar, ExternalLink, Users } from 'lucide-react';
 const WorkSection = () => {
   const workExperiences = [
     {
-      title: "Graphic Design Lead'24 – Algozenith",
+      title: "Graphic Design Manager'24 – Algozenith",
       subtitle: "Design & Branding",
       period: "2023 - 2024",
       description: "Designed branding assets and promotional content for over 15+ events.Led content strategy and managed social media outreach, increasing event participation and club visibility.",
@@ -27,7 +27,7 @@ const WorkSection = () => {
       type: "ambassador"
     },
     {
-      title: "Hackathon Project Manager",
+      title: "Hackathon Program Manager",
       subtitle: "National Level 24-hours hackathons",
       period: "2022 - 2024",
       description: "Served as the main coordinator for two national-level 24-hour hackathons, managing 600+ participants from across India and coordinating with 7 virtual judges from top U.S based tech companies. Oversaw end-to-end planning, logistics, and seamless execution delivering high-impact events.",
@@ -35,7 +35,7 @@ const WorkSection = () => {
       type: "event"
     },
     {
-      title: "Young Indians Volunteer",
+      title: "Young Indians Program Manager",
       subtitle: "Economic Empowerment",
       period: "2024 - 2024",
       description: "Volunteered for The Thrift Sale, a sustainability-focused initiative that empowered 2,000+ middle-class and underprivileged individuals by offering 500+ quality preowned items at highly affordable prices. Collaborated with 200+ student and faculty volunteers to ensure a seamless, dignified shopping experience. We successfully raised ₹2,00,000, directly supporting climate action initiatives.",
@@ -43,7 +43,7 @@ const WorkSection = () => {
       type: "tech"
     },
     {
-      title: "Event & Community Organizer",
+      title: "Event & Community Manager",
       subtitle: "Media cell Vizag",
       period: "2024 - 2025",
       description: "As a core member of the campus Media Cell, I led event photography and visual content strategy to enhance brand visibility and drive student engagement. I developed a consistent visual language that aligned with the institution’s identity, capturing key moments across technical, cultural, and outreach events. My efforts not only elevated the aesthetic quality of promotional materials but also contributed to higher event participation and stronger brand recall across campus. Through visual storytelling and strategic content planning, I helped build a recognizable and engaging campus presence both online and offline.",
