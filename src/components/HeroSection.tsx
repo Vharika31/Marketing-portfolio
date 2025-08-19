@@ -28,7 +28,7 @@ const HeroSection = () => {
           </h1>
 
           <div className="text-xl md:text-2xl text-muted-foreground mb-8 font-inter">
-            <span className="block text-4xl">CSUG'26 | Product Marketing | AI + Strategy</span>
+            <span className="block text-4xl">CSUG | Product Marketing | AI + Strategy</span>
           </div>
 
           <p className="text-muted-foreground mb-10 max-w-1xl leading-relaxed text-xl mx-0 px-0 my-0 py-0">
