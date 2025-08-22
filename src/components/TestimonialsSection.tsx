@@ -14,7 +14,7 @@ const testimonials: Testimonial[] = [
   {
     
     quote: "",
-    fullText:
+    fullText: "",
       author: "",
     position: "",
   },
