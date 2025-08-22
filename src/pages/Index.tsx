@@ -4,7 +4,6 @@ import AboutSection from '@/components/AboutSection';
 import SkillsSection from '@/components/SkillsSection';
 import WorkSection from '@/components/WorkSection';
 import AchievementsSection from '@/components/AchievementsSection';
-import TestimonialsSection from '@/components/TestimonialsSection';
 import StoriesSection from '@/components/StoriesSection';
 import ContactSection from '@/components/ContactSection';
 import Footer from '@/components/Footer';
