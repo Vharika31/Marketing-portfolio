@@ -12,29 +12,13 @@ type Testimonial = {
 
 const testimonials: Testimonial[] = [
   {
-    image: "/images/testimonial1.jpg",
+    
     quote: "This platform completely transformed how I approach learning!",
     fullText:
-      "This platform completely transformed how I approach learning! The resources are top-notch, the mentors are incredibly supportive, and I’ve grown my skills faster than I thought possible. I’d recommend it to anyone who is serious about upskilling themselves.",
-    author: "Jane Doe",
-    position: "Software Engineer, Google",
+      author: "",
+    position: "",
   },
-  {
-    image: "/images/testimonial2.jpg",
-    quote: "The workshops and guidance made a huge difference in my career.",
-    fullText:
-      "The workshops and guidance made a huge difference in my career. I was able to strengthen my foundations and land an internship with the help of mentors here. The community is also amazing, always encouraging and supportive.",
-    author: "John Smith",
-    position: "Data Analyst, Microsoft",
-  },
-  {
-    image: "/images/testimonial3.jpg",
-    quote: "I gained confidence to crack technical interviews.",
-    fullText:
-      "I gained confidence to crack technical interviews thanks to the structured sessions and practice problems. It’s not just about technical skills, but also about mindset and approach. This experience gave me clarity and confidence.",
-    author: "Priya Sharma",
-    position: "SDE, Amazon",
-  },
+  
 ];
 
 const TestimonialsSection = () => {
