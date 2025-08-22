@@ -13,7 +13,7 @@ type Testimonial = {
 const testimonials: Testimonial[] = [
   {
     
-    quote: "This platform completely transformed how I approach learning!",
+    quote: "",
     fullText:
       author: "",
     position: "",
