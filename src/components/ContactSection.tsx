@@ -19,7 +19,7 @@ const ContactSection = () => {
     e.preventDefault();
     
     // Create mailto link
-    const mailtoLink = `mailto:vharika.1505@gmail.com?subject=${encodeURIComponent(formData.subject)}&body=${encodeURIComponent(
+    const mailtoLink = `mailto:harikavavilapalli31@gmail.com?subject=${encodeURIComponent(formData.subject)}&body=${encodeURIComponent(
       `Name: ${formData.name}\nEmail: ${formData.email}\n\nMessage:\n${formData.message}`
     )}`;
     
@@ -74,7 +74,7 @@ const ContactSection = () => {
                 </div>
                 <div>
                   <h4 className="font-semibold text-foreground">Email</h4>
-                  <p className="text-muted-foreground">vharika.1505@gmail.com</p>
+                  <p className="text-muted-foreground">harikavavilapalli31@gmail.com</p>
                 </div>
               </div>
 
